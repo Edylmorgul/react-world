@@ -21,7 +21,7 @@
     .nav-active {
       position: relative;
 
-      &::after {
+      &::after { // Barre en dessous des titres nav
         content: "";
         height: 4px;
         width: 0;
@@ -29,8 +29,8 @@
         position: absolute;
         border-radius: 10px;
         bottom: 0px;
-        left: 50%;
-        transform: translateX(-50%);
+        left: 50%; // Pour centrer barre
+        transform: translateX(-50%); // Pour centrer barre
         -webkit-animation: anim 0.3s ease forwards;
         animation: anim 0.6s ease forwards;
 
